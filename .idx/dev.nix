@@ -9,6 +9,7 @@
     pkgs.terraform
     pkgs.nodejs
     pkgs.nodePackages.pnpm
+    pkgs.nodejs_20
   ];
 
   # Sets environment variables in the workspace
