@@ -20,30 +20,29 @@ import { ChangeDetectionStrategy } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatSnackBarModule, // Do not remove: used by service.
-    MatButtonModule,
-    MatMenuModule,
-    MatChipsModule,
-    MatFormFieldModule,
-    MatSlideToggleModule,
-    MatProgressSpinnerModule,
-    MatIconModule,
-    MatInputModule,
-    MatNativeDateModule,
-    MatSelectModule,
-    MatCheckboxModule,
-    AsyncPipe,
-    AppRoutingModule,
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-root',
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        MatSnackBarModule, // Do not remove: used by service.
+        MatButtonModule,
+        MatMenuModule,
+        MatChipsModule,
+        MatFormFieldModule,
+        MatSlideToggleModule,
+        MatProgressSpinnerModule,
+        MatIconModule,
+        MatInputModule,
+        MatNativeDateModule,
+        MatSelectModule,
+        MatCheckboxModule,
+        AsyncPipe,
+        AppRoutingModule,
+    ],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
   constructor(
